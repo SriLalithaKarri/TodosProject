@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="todo-app-main-cont">
+        <h1 class="todo-main-heading">To-Do-List</h1>
+        <div class="filters-btn-cont">
+            <button id="allTasks">All</button>
+            <button id="activeTasks">Active</button>
+            <button id="completedTasks">Completed</button>
+        </div>
+        <h3 class="create-task-heading">
+            Create <span class="create-task-heading-subpart">Task</span>
+        </h3>
+        <input type="text" placeholder="Enter a new task..." class="task-input" id="taskInput"/>
+        <select class="task-input" id="taskPriority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+
+        </select>
+        <select class="task-input" id="taskCategory">
+            <option value="Office">Office</option>
+            <option value="Personal">Personal</option>
+            <option value="Others">Others</option>
+
+        </select>
+        <button class="add-task-btn" id="addTaskBtn">Add Task</button>
+        <h3 class="todo-items-heading">
+            My <span class="todo-items-heading-subpart">Tasks</span>
+        </h3>
+        <ul id="todoListCont"></ul>
+        <button class="add-task-btn" id="saveTaskBtn">Save</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+button{
+    cursor: pointer;
+}
+body{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    background-color: #f9fbfe;
+    padding: 10px;
+
+}
+.todo-app-main-cont{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 60%;
+    height: max-content;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px  grey;
+    margin-bottom: 40px;
+}
+.todo-main-heading{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.filters-btn-cont{
+    align-self: center;
+    margin: 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filters-btn-cont button{
+    width: 90px;
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #6C66FC;
+    margin-right: 20px;
+}
+.create-task-heading {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 700;
+    margin: 15px 10px 10px;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 500;
+}
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 10px 0px;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 500;
+}
+.task-input{
+    width: 84%;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    border: 1px solid #747575;
+}
+.add-task-btn{
+    width: 110px;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    margin: 15px 10px;
+    background-color: #7DDA58;
+}
+#todoListCont{
+    width: 95%;
+    padding-left: 10px;
+}
+.todo-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef9f4;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    margin: 18px 0px;
+    height: 60px;
+    padding: 12px 20px;
+}
+.input-cont{
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+label{
+    font-size: 19px;
+    margin-right: 35px;
+}
+span{
+    font-size: 16px;
+    margin-right: 20px;
+    color: #585a5c;
+}
+.edit-btn{
+    width: 80px;
+    padding: 10px;
+    margin-right: 14px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FE9900;
+    color: white;
+
+}
+.operation-btn{
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #F63A3C;
+    color: white;
+}
+.task-completed{
+    text-decoration: line-through;
+}
+
+.edit-text-input{
+    width: 180px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.edit-select-drop-down{
+    width: 110px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
