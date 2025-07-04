@@ -26,4 +26,4 @@ The app allows users to add, filter, edit, and delete tasks while also saving th
 - JavaScript
 - LocalStorage API (for persistence)
 
-
+[Click here to view the live app]( https://srilalithakarri.github.io/TodosProject/)
